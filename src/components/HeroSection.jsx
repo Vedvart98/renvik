@@ -18,7 +18,7 @@ export default function HeroSection() {
           transformation journey with confidence.
         </p>
 
-        <Link to="/contact-us" className="btn-primary">
+        <Link to="/contact" className="btn-primary">
           Book Now
         </Link>
       </div>

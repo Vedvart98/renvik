@@ -15,17 +15,17 @@ export default function Contact() {
 
           <div className="contact-item">
             <strong>Phone</strong>
-            <span>+1 (555) 123-4567</span>
+            <span>+1 (469) 712 7575 </span>
           </div>
 
           <div className="contact-item">
             <strong>Email</strong>
-            <span>hello@renvik.com</span>
+            <span>renvikconsulting@gmail.com</span>
           </div>
 
           <div className="contact-item">
             <strong>Address</strong>
-            <span>123 Innovation Way, Tech City, IN</span>
+            <span>Frisco, Texas - 75036</span>
           </div>
         </div>
 
@@ -50,6 +50,15 @@ export default function Contact() {
           </form>
         </div>
       </div>
+         <div className="contact-map" aria-hidden={false}>
+            <label className="visually-hidden">Company location</label>
+            <iframe
+              title="Renvik Consulting location"
+              src="https://maps.google.com/maps?q=frisco%20texas&z=14&output=embed"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
     </section>
   );
 }
